@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+a,
+input[type="submit"] {
+  font-weight: 600;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Header Style */
+.header-area {
+  background-image: url("./img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: -250px;
+}
+/* Menu Style */
+.menu-area {
+  overflow: hidden;
+  padding: 50px 0;
+}
+.logo-part {
+  width: 30%;
+  float: left;
+}
+.menu-part {
+  width: 70%;
+  float: left;
+  margin-top: 12px;
+}
+.menu-part ul {
+  list-style: none;
+  text-align: end;
+}
+.menu-part ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+.menu-part ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* Hero Style */
+.hero-area {
+  text-align: center;
+  padding-top: 60px;
+}
+.hero-title {
+  font-style: 45px;
+  line-height: 60px;
+  color: white;
+  margin-bottom: 25px;
+}
+.hero-subtitle {
+  font-size: 15px;
+  line-height: 27px;
+  color: white;
+  margin-bottom: 50px;
+}
+.hero-buttons {
+  margin-bottom: 70px;
+}
+.hero-buttons a {
+  margin: 0 10px;
+}
+.btn-filled {
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.btn-outline {
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+/* Features Style */
+.features-area {
+  background-image: url("./img/features-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  padding-top: 350px;
+}
+.features-img {
+  width: 35%;
+  float: left;
+}
+.features-content {
+  width: 60%;
+  float: left;
+  margin-left: 30px;
+}
+.features-box {
+  width: 40%;
+  float: left;
+  background-color: white;
+  padding: 25px 15px;
+  text-align: center;
+  box-shadow: 0 1px 10px rgba(128, 128, 128, 0.404);
+  margin: 30px;
+}
+.features-box img {
+  margin-bottom: 30px;
+}
+.features-box h4 {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 20px;
+}
+.features-box p {
+  font-size: 14px;
+  color: darkgray;
+}
+.features-box:nth-child(odd) {
+  position: relative;
+  top: -60px;
+}
+/* About Style */
+/* About Top */
+.about-top {
+  padding: 80px 0 60px;
+}
+.about-left {
+  width: 50%;
+  float: left;
+  text-align: end;
+  padding: 50px;
+}
+.about-left h2,
+.about-right h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.about-left p,
+.about-bottom .about-right p {
+  color: gray;
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 27px;
+}
+.about-left .btn-filled {
+  background-color: #33d2fd;
+  color: white;
+  border-color: #33d2fd;
+}
+.about-right {
+  width: 50%;
+  float: left;
+}
+.about-right ul li {
+  padding: 30px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 10px rgba(128, 128, 128, 0.404);
+  overflow: hidden;
+}
+.about-right ul li .about-icon {
+  width: 12%;
+  float: left;
+}
+.about-right ul li .about-text {
+  width: 85%;
+  float: left;
+}
+.about-right ul li .about-text h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.about-right ul li .about-text p {
+  font-size: 14px;
+
+  color: gray;
+}
+.about-right ul li:hover {
+  background-color: #33d2fd;
+}
+.about-right ul li:hover .about-text p {
+  color: white;
+}
+/* About Bottm */
+.about-bottom {
+  background-color: #fafafc;
+  padding: 80px 0 60px;
+}
+.about-bottom .about-left {
+  padding: 0;
+}
+.about-bottom .about-right {
+  padding: 50px;
+}
+.about-bottom .about-right div {
+  margin-bottom: 15px;
+  display: table;
+}
+.about-bottom .about-right div img {
+  display: inline-block;
+  margin-right: 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.about-bottom .about-right div p {
+  display: inline-block;
+  margin: 0;
+}
+/* Download Style */
+.download-area {
+  background-image: url("./img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+.download-left {
+  width: 35%;
+  float: left;
+  text-align: end;
+}
+.download-right {
+  width: 60%;
+  float: left;
+  padding: 50px;
+}
+.download-right h2 {
+  font-size: 30px;
+  color: #233148;
+  margin-bottom: 40px;
+}
+.download-right p {
+  font-size: 15px;
+  color: white;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+.download-right .buttons a:first-child {
+  margin-right: 40px;
+}
+.get-app-button {
+  text-align: center;
+}
+.get-app-button .btn {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 30px 95px;
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 124, 110) 1%,
+    rgb(245, 49, 127) 99%
+  );
+  box-shadow: 0px 11px 29px 0px rgba(255, 7, 95, 0.2);
+  position: relative;
+  top: 100px;
+}
+
+/* Contact Style */
+.contact-area {
+  padding: 80px 0 60px;
+}
+.contact-top {
+  padding: 20px 40px;
+}
+.contact-widget {
+  width: 25%;
+  float: left;
+  margin: 0 auto;
+}
+.contact-widget h4 {
+  font-size: 16px;
+  color: #233148;
+  margin-bottom: 25px;
+}
+.contact-widget ul li {
+  margin-bottom: 10px;
+}
+.contact-widget ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: gray;
+}
+.contact-bottom {
+  text-align: center;
+  padding-top: 20px;
+}
+.contact-bottom h3 {
+  font-size: 30px;
+  color: #233148;
+  margin-bottom: 20px;
+}
+.contact-bottom p {
+  font-size: 15px;
+  color: gray;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+.contact-bottom form {
+  width: 70%;
+  margin: 0 auto;
+}
+.contact-bottom form input {
+  padding: 15px 25px;
+  outline: none;
+  border: none;
+}
+.contact-bottom input[type="email"] {
+  background-color: #f6f7fb;
+  width: 70%;
+  display: inline-block;
+}
+.contact-bottom input[type="submit"] {
+  display: inline-block;
+  width: 27%;
+  margin-left: 15px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #233148;
+  background-color: #33d2fd;
+}
+/*Footer Style */
+.footer-area {
+  padding: 20px 0;
+  background-color: #233148;
+}
+.footer-copyright {
+  width: 50%;
+  float: left;
+}
+.footer-copyright p {
+  font-size: 14px;
+  color: white;
+}
+.footer-social {
+  width: 50%;
+  float: left;
+}
+.footer-social ul {
+  text-align: end;
+}
+.footer-social ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
